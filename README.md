@@ -23,6 +23,7 @@ A scatter plot to compare the size reduction vs the information loss.
 * A set of images, titles by their subsampling rates, showing how polygon complexity increases over time.
 
 ### How to Run
+* First install the libraries required to run this by using pip3 install -r requirements.txt 
 * Simply run the command python3 subsample.py to obtain results (may take a few seconds to minutes of processing, depending on export file size).
 * To modify parameters simply open the file and change them. Possible changes include: 
 STARTING_RATIO (The Subsampling ratio to start with * 10 e.g 4)
